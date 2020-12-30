@@ -1,3 +1,9 @@
+/*
+    Given an m x n board and a word. 
+    The word can be constructed from letters of sequentially adjacent cells
+    Find If the word exists in the grid.
+*/
+
 function randomCharacter() {
     var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     var charactersLength = characters.length;
