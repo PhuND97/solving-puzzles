@@ -16,8 +16,8 @@ function findSecondLargest(arr) {
             secondLargestNum = arr[i];
         }
     }
-    
-    return secondLargestNum;
+
+    return largestNum == secondLargestNum ? null : secondLargestNum;
 }
 
 console.log(findSecondLargest(numbers));
